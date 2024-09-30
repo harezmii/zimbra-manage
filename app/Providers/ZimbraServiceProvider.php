@@ -3,7 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Zimbra\Account\AccountApi;
 use Zimbra\Admin\AdminApi;
+use Zimbra\Mail\MailApi;
 
 class ZimbraServiceProvider extends ServiceProvider
 {

@@ -20,6 +20,7 @@ return [
         'url'      => env('ZIMBRA_URL'),
     ],
 
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
